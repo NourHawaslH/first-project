@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>quiz game.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #a9b7c6;}
+.s1 { color: #6a8759;}
+.s2 { color: #cc7832;}
+.s3 { color: #6897bb;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+quiz game.py</font>
+</center></td></tr></table>
+<pre><span class="s0">print(</span><span class="s1">'welcome to my computer quiz!'</span><span class="s0">)</span>
+
+<span class="s0">playing = input(</span><span class="s1">&quot;do you want to play? &quot;</span><span class="s0">)</span>
+
+<span class="s2">if </span><span class="s0">playing.lower() != </span><span class="s1">&quot;yes&quot;</span><span class="s0">:</span>
+    <span class="s0">quit()</span>
+
+<span class="s0">print(</span><span class="s1">&quot;okay! lets play ;)&quot;</span><span class="s0">)</span>
+<span class="s0">score = </span><span class="s3">0</span>
+<span class="s0">answer = input(</span><span class="s1">&quot;what does cpu stand for? &quot;</span><span class="s0">)</span>
+<span class="s2">if </span><span class="s0">answer.lower() == </span><span class="s1">'central processing unit'</span><span class="s0">:</span>
+    <span class="s0">print(</span><span class="s1">'correct!'</span><span class="s0">)</span>
+    <span class="s0">score += </span><span class="s3">1</span>
+<span class="s2">else</span><span class="s0">:</span>
+    <span class="s0">print(</span><span class="s1">&quot;incorrect!&quot;</span><span class="s0">)</span>
+
+<span class="s0">answer = input(</span><span class="s1">&quot;what does gpu stand for? &quot;</span><span class="s0">)</span>
+<span class="s2">if </span><span class="s0">answer.lower() == </span><span class="s1">&quot;graphic processing unit&quot;</span><span class="s0">:</span>
+    <span class="s0">print(</span><span class="s1">'correct!'</span><span class="s0">)</span>
+    <span class="s0">score += </span><span class="s3">1</span>
+<span class="s2">else</span><span class="s0">:</span>
+    <span class="s0">print(</span><span class="s1">&quot;incorrect!&quot;</span><span class="s0">)</span>
+
+<span class="s0">answer = input(</span><span class="s1">&quot;what does ram stand for? &quot;</span><span class="s0">)</span>
+<span class="s2">if </span><span class="s0">answer.lower() == </span><span class="s1">'random access memory'</span><span class="s0">:</span>
+    <span class="s0">print(</span><span class="s1">'correct!'</span><span class="s0">)</span>
+    <span class="s0">score += </span><span class="s3">1</span>
+<span class="s2">else</span><span class="s0">:</span>
+    <span class="s0">print(</span><span class="s1">&quot;incorrect!&quot;</span><span class="s0">)</span>
+
+<span class="s0">answer = input(</span><span class="s1">&quot;what does psu stand for? &quot;</span><span class="s0">)</span>
+<span class="s2">if </span><span class="s0">answer.lower() == </span><span class="s1">&quot;power supply&quot;</span><span class="s0">:</span>
+    <span class="s0">print(</span><span class="s1">'correct!'</span><span class="s0">)</span>
+    <span class="s0">score += </span><span class="s3">1</span>
+<span class="s2">else</span><span class="s0">:</span>
+    <span class="s0">print(</span><span class="s1">&quot;incorrect!&quot;</span><span class="s0">)</span>
+
+<span class="s0">print(</span><span class="s1">&quot;you got &quot; </span><span class="s0">+ str(score) + </span><span class="s1">&quot; questions correct!&quot;</span><span class="s0">)</span>
+<span class="s0">print(</span><span class="s1">&quot;you got &quot; </span><span class="s0">+ str((score/ </span><span class="s3">4</span><span class="s0">) * </span><span class="s3">100</span><span class="s0">) + </span><span class="s1">&quot;%&quot;</span><span class="s0">)</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</pre>
+</body>
+</html>
